@@ -170,7 +170,7 @@ int main(int argc, char* argv[]){
 			}
 		}
 		
-		printf("RESULT SUM: %i\n", sumarray(changedp(V, v_count, A, DP_table), v_count));//remove later LAUREN
+		//printf("RESULT SUM: %i\n", sumarray(changedp(V, v_count, A, DP_table), v_count));//remove later LAUREN
 		Ctofile(f_out, changedp(V, v_count, A, DP_table), v_count);
 		
 		//free DP_table
